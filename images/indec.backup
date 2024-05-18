@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Rooms Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            margin: 20px 0;
+        }
+        .pdf-viewer {
+            width: 80%;
+            height: 600px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .description {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 20px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>House Rooms Gallery</h1>
+    <div class="pdf-viewer">
+        <iframe src="images/d24ddh7.pdf" width="100%" height="100%">
+            Please download the PDF to view it: 
+            <a href="images/d24ddh7.pdf">Download PDF</a>
+        </iframe>
+    </div>
+    <div class="description">
+        <h2>House Description</h2>
+        <p>8 Citywest Village Avenue is a beautiful development, with a red brick finish and green areas scattered throughout, in the ideal location with its own national primary schools, shops and services on your doorstep, amenities, and a great close-knit community. Both LUAS and Citywest Shopping Centre is less than 5 minutes walk, while the Naas Rd can be reached by car in 2 minutes and the M50 in 10. Within minutes you will also find Saggart Village with its shops, schools, Avoca and local GAA grounds.</p>
+    </div>
+</body>
+</html>
